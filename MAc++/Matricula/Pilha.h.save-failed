@@ -1,0 +1,39 @@
+#ifndef PILHA_H_INCLUDED
+#define PILHA_H_INCLUDED
+
+typedef int TipoDado; // Define o tipo de dado que será armazenado na Pilha
+
+// Definição da célula da pilha
+struct TipoCelula {
+    TipoDado Item;
+    TipoCelula *Prox;
+};
+
+// Estrutura da Pilha
+struct Pilha {
+    TipoCelula *Topo; // Ponteiro para o topo da pilha
+    int Tamanho;      // Variável para armazenar o tamanho da pilha
+};
+
+// Construtor da pilha
+void Pilha_Construtor(Pilha &p);
+
+// Destrutor da pilha
+void Pilha_Destrutor(Pilha &p);
+
+// Função para verificar se a pilha está vazia
+bool Pilha_Vazia(Pilha &p);
+
+// Função para retornar o tamanho da pilha
+int Pilha_Tamanho(Pilha &p);
+
+// Função para empilhar um elemento (push)
+bool Pilha_Empilhar(Pilha &p, TipoDado Elemento);
+
+// Função para desempilhar um elemento (pop)
+bool Pilha_Desempilhar(Pilha &p, TipoDado &Elemento);
+
+// Função para verificar o elemento no topo da pilha (peek)
+bool Pilha_Topo(Pilha &p, TipoDado &Elemento);
+
+#endif // PILHA_H_INCLUDED

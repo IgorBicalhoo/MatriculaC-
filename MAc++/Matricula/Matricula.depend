@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1727898083 source:c:\users\ibnp2\documents\mac++\matricula\fila.cpp
+	<iostream>
+	"Fila.h"
+
+1727898088 c:\users\ibnp2\documents\mac++\matricula\fila.h
+	"TipoDado.h"
+
+1584205420 source:c:\users\ibnp2\documents\mac++\matricula\main.cpp
+	<iostream>
+
+1727898089 source:c:\users\ibnp2\documents\mac++\matricula\pilha.cpp
+	<iostream>
+	"Pilha.h"
+
+1727898089 c:\users\ibnp2\documents\mac++\matricula\pilha.h
+	"TipoDado.h"
+
+1727898129 c:\users\ibnp2\documents\mac++\matricula\tipodado.h
+
